@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-Bold.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-Bold.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,8 +8,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-BoldItalic.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-BoldItalic.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-BoldItalic.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -18,8 +16,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-ExtraLight.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-ExtraLight.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-ExtraLight.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -27,8 +24,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-ExtraLightItalic.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-ExtraLightItalic.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-ExtraLightItalic.woff2') format('woff2');
     font-weight: 200;
     font-style: italic;
     font-display: swap;
@@ -36,8 +32,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-Italic.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-Italic.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -45,8 +40,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-Light.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-Light.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -54,8 +48,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-LightItalic.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-LightItalic.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-LightItalic.woff2') format('woff2');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -63,8 +56,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-Regular.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-Regular.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -72,8 +64,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-SemiBold.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-SemiBold.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -81,8 +72,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM';
-    src: url('CaskaydiaCoveNFM-SemiBoldItalic.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-SemiBoldItalic.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-SemiBoldItalic.woff2') format('woff2');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -90,8 +80,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM SemiLight';
-    src: url('CaskaydiaCoveNFM-SemiLightItalic.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-SemiLightItalic.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-SemiLightItalic.woff2') format('woff2');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -99,8 +88,7 @@
 
 @font-face {
     font-family: 'CaskaydiaCove NFM SemiLight';
-    src: url('CaskaydiaCoveNFM-SemiLight.woff2') format('woff2'),
-        url('CaskaydiaCoveNFM-SemiLight.woff') format('woff');
+    src: url('CaskaydiaCoveNFM-SemiLight.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
