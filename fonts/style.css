@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-Bold.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-BoldItalic.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-ExtraLight.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-ExtraLightItalic.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-Light.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-Italic.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-LightItalic.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-Regular.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-SemiBold.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP';
+    src: url('CaskaydiaCoveNFP-SemiBoldItalic.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP SemiLight';
+    src: url('CaskaydiaCoveNFP-SemiLight.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-SemiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CaskaydiaCove NFP SemiLight';
+    src: url('CaskaydiaCoveNFP-SemiLightItalic.woff2') format('woff2'),
+        url('CaskaydiaCoveNFP-SemiLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
