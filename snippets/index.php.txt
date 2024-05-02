@@ -40,8 +40,7 @@ if($PASSWORD) {
 setlocale(LC_ALL,'en_US.UTF-8');
 
 $tmp_dir = dirname($_SERVER['SCRIPT_FILENAME']);
-if(DIRECTORY_SEPARATOR==='\') $tmp_dir = str_replace('/',DIRECTORY_SEPARATOR,$tmp_dir);
-$tmp = get_absolute_path($tmp_dir . '/' .$_REQUEST['file']);
+$tmp = get_absolute_path($tmp_dir . '/' . ($_REQUEST['file'] ?? ""));
 
 if($tmp === false)
     err(404,'File or Directory Not Found');
@@ -124,8 +123,11 @@ if($_GET['do'] == 'list') {
     $finfo = finfo_open(FILEINFO_MIME_TYPE);
     header('Content-Type: ' . finfo_file($finfo, $file));
     header('Content-Length: '. filesize($file));
-    header(sprintf('Content-Disposition: attachment; filename=%s',
-        strpos('MSIE',$_SERVER['HTTP_REFERER']) ? rawurlencode($filename) : ""$filename"" ));
+    header(
+        sprintf('Content-Disposition: attachment; filename=%s',
+            strpos('MSIE',$_SERVER['HTTP_REFERER']) ? rawurlencode($filename) : $filename
+        )
+    );
     ob_flush();
     readfile($file);
     exit;
@@ -172,7 +174,6 @@ function is_recursively_deleteable($d) {
 
 // from: http://php.net/manual/en/function.realpath.php#84012
 function get_absolute_path($path) {
-        $path = str_replace(['/', '\'], DIRECTORY_SEPARATOR, $path);
         $parts = explode(DIRECTORY_SEPARATOR, $path);
         $absolutes = [];
         foreach ($parts as $part) {
